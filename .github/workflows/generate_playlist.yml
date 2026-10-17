@@ -1,0 +1,96 @@
+name: 🇮🇳 Generate India IPTV Playlist
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      pages:
+        description: 'Pages to scrape (1-20)'
+        required: false
+        default: '5'
+      include_offline:
+        description: 'Include offline channels'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  generate-playlist:
+    runs-on: ubuntu-latest
+    name: Scrape & Generate Playlist
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: 🔍 Scrape & Generate Playlist
+        env:
+          CLOUDFLARE_WORKER_URL: ${{ secrets.CLOUDFLARE_WORKER_URL }}
+          PROXY_URL: ${{ secrets.PROXY_URL }}
+        run: |
+          PAGES="${{ github.event.inputs.pages || '5' }}"
+          OFFLINE="${{ github.event.inputs.include_offline || 'false' }}"
+          
+          CMD="python main.py --pages $PAGES"
+          
+          if [ "$OFFLINE" = "true" ]; then
+            CMD="$CMD --all"
+          fi
+          
+          echo "Running: $CMD"
+          $CMD
+
+      - name: 📊 Show Stats
+        run: |
+          echo "## Generated Files" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| File | Size |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|------|" >> $GITHUB_STEP_SUMMARY
+          for f in output/*.m3u; do
+            size=$(du -sh "$f" | cut -f1)
+            count=$(grep -c "^#EXTINF" "$f" 2>/dev/null || echo 0)
+            echo "| \`$f\` | $size ($count channels) |" >> $GITHUB_STEP_SUMMARY
+          done
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Generated at: $(date -u)" >> $GITHUB_STEP_SUMMARY
+
+      - name: 📤 Commit & Push Playlist
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add output/ README.md docs/ scripts/ logs/
+          
+          CHANNEL_COUNT=$(grep -c "^#EXTINF" output/india_iptv.m3u 2>/dev/null || echo 0)
+          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+          
+          git commit -m "🔄 Auto-update: $CHANNEL_COUNT channels [$TIMESTAMP]" || echo "No changes to commit"
+          git push || echo "Nothing to push"
+
+      - name: ✅ Playlist URL
+        run: |
+          REPO="${{ github.repository }}"
+          echo "## 📺 Your Playlist URLs" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Main playlist:**" >> $GITHUB_STEP_SUMMARY
+          echo "\`https://raw.githubusercontent.com/$REPO/main/output/india_iptv.m3u\`" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**EPG:**" >> $GITHUB_STEP_SUMMARY
+          echo "\`https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz\`" >> $GITHUB_STEP_SUMMARY
