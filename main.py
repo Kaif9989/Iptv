@@ -53,6 +53,8 @@ def main():
     p.add_argument("--all", action="store_true", help="Also include '[Not 24/7]' channels")
     p.add_argument("--no-check", action="store_true", help="Skip health check (NOT recommended)")
     p.add_argument("--workers", type=int, default=20)
+    p.add_argument("--no-stable", action="store_true", help="Skip the 'still live after a minute' check")
+    p.add_argument("--stable-wait", type=int, default=70, help="Seconds between the two stability samples")
     p.add_argument("--alternates", type=int, default=1, help="Working streams to keep per channel name")
     p.add_argument("--no-split", action="store_true")
     p.add_argument("--debug-html", action="store_true", help="Save IPTVCat page 1 to logs/page1.html")
@@ -62,7 +64,7 @@ def main():
 
     from scraper import IPTVCatScraper
     from generator import PlaylistGenerator
-    from checker import filter_working
+    from checker import filter_working, filter_stable
     from geobypass import apply_proxy_to_channels, generate_cloudflare_worker, generate_streamlink_script
 
     if not args.no_cf_worker:
@@ -93,6 +95,12 @@ def main():
         if not channels:
             logger.error("No streams passed the health check (check your internet / try again later).")
             sys.exit(1)
+
+        if not args.no_stable:
+            channels = filter_stable(channels, wait=args.stable_wait)
+            if not channels:
+                logger.error("No streams stayed live. Try again later or use --no-stable.")
+                sys.exit(1)
 
     channels = keep_best(channels, args.alternates)
     channels = apply_proxy_to_channels(channels)
