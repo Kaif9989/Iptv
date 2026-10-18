@@ -79,3 +79,59 @@ def filter_working(channels, workers=20, timeout=10):
             alive.append(ch)
     logger.info(f"{len(alive)}/{len(channels)} streams are working")
     return alive
+
+
+# ─── Stability check: is the stream still LIVE after a while? ────────────────
+import re
+import time
+
+
+def _media_playlist(url, timeout):
+    text, final = _get_text(url, timeout)
+    if text is None or not text.lstrip().startswith("#EXTM3U"):
+        return None
+    if "#EXT-X-STREAM-INF" in text:
+        variant = _first_uri(text)
+        if not variant:
+            return None
+        text, final = _get_text(urljoin(final, variant), timeout)
+        if text is None or not text.lstrip().startswith("#EXTM3U"):
+            return None
+    return text, final
+
+
+def _last_segment(text, final):
+    uris = [l.strip() for l in text.splitlines() if l.strip() and not l.startswith("#")]
+    return urljoin(final, uris[-1]) if uris else None
+
+
+def _media_seq(text):
+    m = re.search(r"#EXT-X-MEDIA-SEQUENCE:(\d+)", text)
+    return int(m.group(1)) if m else None
+
+
+def check_stable(url, wait=70, timeout=10):
+    """Fetch the playlist, wait, fetch again: it must have advanced and new video must download."""
+    try:
+        a = _media_playlist(url, timeout)
+        if not a:
+            return False
+        time.sleep(wait)
+        b = _media_playlist(url, timeout)
+        if not b:
+            return False
+        sa, sb = _media_seq(a[0]), _media_seq(b[0])
+        la, lb = _last_segment(*a), _last_segment(*b)
+        advanced = (sa is not None and sb is not None and sb > sa) or (la != lb)
+        return bool(advanced and lb and _segment_ok(lb, timeout))
+    except Exception:
+        return False
+
+
+def filter_stable(channels, wait=70, workers=60, timeout=10):
+    logger.info(f"Stability check on {len(channels)} streams (~{wait}s per batch of {workers})...")
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        results = list(ex.map(lambda c: check_stable(c["stream_url"], wait, timeout), channels))
+    stable = [c for c, ok in zip(channels, results) if ok]
+    logger.info(f"{len(stable)}/{len(channels)} streams are still live after {wait}s")
+    return stable
