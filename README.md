@@ -1,559 +1,855 @@
 # 🇮🇳 India IPTV Playlist
 
-**Auto-generated on:** 2026-09-04 10:13 UTC
-
-**Total Channels:** 500
-
----
-
-## 📺 Quick Links
-
-| Playlist | Channels | Link |
-|----------|----------|------|
-| 🇮🇳 All India | 500 | [india_iptv.m3u](output/india_iptv.m3u) |
-| General | 500 | [india_general.m3u](output/india_general.m3u) |
+**Auto-generated:** 2026-10-18 15:50 UTC  
+**Total channels:** 690
 
 ---
 
-## 📡 EPG (Electronic Programme Guide)
+## 📺 Playlists
 
-Add these EPG URLs to your player:
+| Playlist | Channels | File |
+|---|---|---|
+| All India | 690 | [india_iptv.m3u](output/india_iptv.m3u) |
+| Animation | 3 | [india_animation.m3u](output/india_animation.m3u) |
+| Business | 2 | [india_business.m3u](output/india_business.m3u) |
+| Classic | 2 | [india_classic.m3u](output/india_classic.m3u) |
+| Comedy | 2 | [india_comedy.m3u](output/india_comedy.m3u) |
+| Culture | 5 | [india_culture.m3u](output/india_culture.m3u) |
+| Devotional | 26 | [india_devotional.m3u](output/india_devotional.m3u) |
+| Documentary | 4 | [india_documentary.m3u](output/india_documentary.m3u) |
+| Education | 5 | [india_education.m3u](output/india_education.m3u) |
+| English | 3 | [india_english.m3u](output/india_english.m3u) |
+| Entertainment | 58 | [india_entertainment.m3u](output/india_entertainment.m3u) |
+| Family | 1 | [india_family.m3u](output/india_family.m3u) |
+| General | 82 | [india_general.m3u](output/india_general.m3u) |
+| Infotainment | 16 | [india_infotainment.m3u](output/india_infotainment.m3u) |
+| Kids | 12 | [india_kids.m3u](output/india_kids.m3u) |
+| Lifestyle | 4 | [india_lifestyle.m3u](output/india_lifestyle.m3u) |
+| Movies | 46 | [india_movies.m3u](output/india_movies.m3u) |
+| Music | 43 | [india_music.m3u](output/india_music.m3u) |
+| News | 207 | [india_news.m3u](output/india_news.m3u) |
+| Regional - Bengali | 21 | [india_regional_bengali.m3u](output/india_regional_bengali.m3u) |
+| Regional - Bhojpuri | 4 | [india_regional_bhojpuri.m3u](output/india_regional_bhojpuri.m3u) |
+| Regional - Gujarati | 5 | [india_regional_gujarati.m3u](output/india_regional_gujarati.m3u) |
+| Regional - Kannada | 8 | [india_regional_kannada.m3u](output/india_regional_kannada.m3u) |
+| Regional - Malayalam | 14 | [india_regional_malayalam.m3u](output/india_regional_malayalam.m3u) |
+| Regional - Marathi | 8 | [india_regional_marathi.m3u](output/india_regional_marathi.m3u) |
+| Regional - Punjabi | 13 | [india_regional_punjabi.m3u](output/india_regional_punjabi.m3u) |
+| Regional - Tamil | 16 | [india_regional_tamil.m3u](output/india_regional_tamil.m3u) |
+| Regional - Telugu | 16 | [india_regional_telugu.m3u](output/india_regional_telugu.m3u) |
+| Religious | 49 | [india_religious.m3u](output/india_religious.m3u) |
+| Science | 1 | [india_science.m3u](output/india_science.m3u) |
+| Sports | 13 | [india_sports.m3u](output/india_sports.m3u) |
+| Weather | 1 | [india_weather.m3u](output/india_weather.m3u) |
+
+---
+
+## 📡 SS IPTV (Samsung / LG smart TV)
+
+1. Push this repo to GitHub.
+2. Your playlist URL is:
+   `https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/output/india_iptv.m3u`
+3. On the TV open **SS IPTV → Settings → Content → External playlists → Add**.
+4. Enter a name and paste the URL, save, then go back to the main screen.
+5. Alternative: Settings → General → *Get code*, then upload the .m3u from the SS IPTV site's *Edit* page.
+
+EPG: SS IPTV reads `url-tvg` from the playlist header; you can also set it in Settings → EPG.
+
+### Other players (VLC / TiviMate / Kodi)
+
+Add the same M3U URL. EPG URLs:
 
 - `https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz`
 - `https://www.open-epg.com/files/india1.xml`
 - `https://raw.githubusercontent.com/iptv-org/epg/gh-pages/guides/in.epg.xml`
-- `https://raw.githubusercontent.com/azimjon-95/tvgraber/main/in.xml`
 
 ---
 
-## 🔧 How to Use
+## 📋 Channel list
 
-### VLC Media Player
-1. Open VLC → Media → Open Network Stream
-2. Paste the raw GitHub URL of `india_iptv.m3u`
+### Animation
 
-### IPTV Smarters / TiviMate / OTT Navigator
-1. Add new playlist → M3U URL
-2. Paste: `https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/output/india_iptv.m3u`
-3. Add EPG: `https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz`
+- Animax Asia India
+- Mr Bean Animated
+- WOW Kidz
 
-### Kodi (PVR IPTV Simple Client)
-1. Install PVR IPTV Simple Client addon
-2. Set M3U URL and EPG URL in settings
+### Business
 
----
+- BT TV
+- Zee Business
 
-## 🌐 Geo-Blocked Channels
+### Classic
 
-Some channels may be geo-restricted. See [VPN Setup Guide](docs/vpn_setup.md) for bypass options.
+- Zee Cine Classic
+- Zee Classic
 
----
+### Comedy
 
-## 📋 Channel List
+- Sirippoli TV
+- Zee Comedy Nation
+
+### Culture
+
+- Andy Haryana
+- DD Bharati
+- DD Mizoram
+- JTBS Classic
+- Odisha TV
+
+### Devotional
+
+- Aastha
+- Aastha Bhajan
+- Aastha Gujarati
+- Aastha HD
+- Aastha Kannada
+- Aastha Prime 1
+- Aastha Tamil
+- Aastha Telugu
+- Bhakthi TV
+- Bhakti Sagar
+- CVR OM Spiritual
+- Channel Divya
+- Divyavani TV
+- Ishwar Bhakti TV
+- Knock Bhakti
+- Mahaa Bhakti
+- OM TV
+- Peace TV Bangla
+- Peace TV Urdu
+- Peace of Mind TV
+- Sadhna
+- Sadhna TV
+- Sanskar TV
+- Sanskar Web TV
+- Total Bhakti
+- ZB Bhakti
+
+### Documentary
+
+- DocuBay TV
+- Epic Crimes
+- INWILD
+- India TV Aap Ki Adalat
+
+### Education
+
+- DD Kisan
+- Gyandarshan
+- Gyandarshan HD
+- MediBizTV
+- Vyas Channel
+
+### English
+
+- CVR English
+- Sony BBC Earth HD
+- TV BRICS English
+
+### Entertainment
+
+- Amrita TV
+- Anjan TV
+- Apna Punjab TV
+- Colors
+- Colors Cineplex
+- Colors Infinity HD
+- Colors Rishtey Americas
+- Colors Super
+- DD National HD
+- Dangal 2
+- Darshana TV
+- Desi Channel
+- E 24
+- Epic Bharat
+- Epic Parivar
+- Friends TV
+- Gangaur TV
+- Hi Dost!
+- Jaihind TV
+- KCM India
+- Lok Sabha TV
+- MH One Dil Se
+- MK Six
+- Mahaa Max
+- Mango (India)
+- Mango Mobile TV
+- Manoranjan Prime
+- Manoranjan TV
+- Marutam TV
+- Nepal 1
+- Oli TV (India)
+- One Paschima
+- Pasand TV
+- Pear TV
+- Pulari TV
+- Q TV
+- Sana TV
+- Shemaroo TV
+- Shemaroo Umang
+- Sony Entertainment Television
+- Sony Entertainment Television HD
+- Sony Pix HD
+- Sony SAB
+- Sooriyan TV
+- Spondon
+- Studio Yuva
+- Suriya TV
+- Tarang TV
+- Thanthi One
+- Unique TV
+- Vanitha TV
+- Vasanth TV
+- Vendhar TV
+- Vissa TV
+- Zee Dil Se
+- Zee Horror Nights
+- Zee TV
+- Zodiak TV
+
+### Family
+
+- The Pet Collective India
 
 ### General
 
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
-- Download
+- 5AAB TV
+- Animax
+- CCV
+- Calvary TV
+- Channel Y
+- DD Arun Prabha
+- DD Assam
+- DD Bihar
+- DD Chandana
+- DD Chhattisgarh
+- DD Goa
+- DD Haryana
+- DD Himachal Pradesh
+- DD India
+- DD Jharkhand
+- DD Kashir
+- DD Madhya Pradesh
+- DD Manipur
+- DD Meghalaya
+- DD Nagaland
+- DD Odia
+- DD Rajasthan
+- DD Sahyadri
+- DD Saptagiri
+- DD Tripura
+- DD Urdu
+- DD Uttar Pradesh
+- DD Uttarakhand
+- DD Yadagiri
+- Dangal TV
+- Disha TV
+- ET Now
+- Fast1
+- Gaunda Punjab TV
+- HSTV
+- Harvest TV
+- Jan TV
+- Jeevan TV
+- Jonack
+- Kannur Vision
+- Kaumudy TV
+- Makkal TV (576i)
+- Mei Alai TV
+- Metro TV
+- Metro TV (India)
+- Mh 1 Prime
+- Namdhari
+- Nandighosha TV
+- Network 10
+- Northeast Live
+- PUNJAB TV
+- Power TV
+- Prarthana TV
+- Pravasi Channel
+- Puthuyugam TV
+- R Plus
+- R Plus Gold
+- Raftaar Media
+- Ramdhenu
+- Rang
+- Rengoni
+- Roja TV
+- Rongeen TV
+- SADA TV
+- Sai TV
+- Salvation TV
+- Santvani Channel
+- Sarv Dharm Sangam
+- Sharnam TV
+- Shubh TV
+- Shubhsandesh
+- Starnet
+- Subin TV
+- Superhitz
+- Taaza TV
+- Tehzeeb TV
+- Thendral TV
+- Total TV Haryana
+- UTV Palakkad
+- VTU
+- Vision (India)
+- Vyas NIC
+
+### Infotainment
+
+- Animal Planet (India)
+- Animal Planet (India) HD
+- Discovery Channel (India)
+- Discovery Channel (India) HD
+- Discovery Science
+- Discovery Turbo (India)
+- Food Food
+- History TV18
+- History TV18 HD
+- Investigation Discovery (India)
+- National Geographic (India) HD
+- National Geographic Wild (India) HD
+- TLC (India)
+- TLC (India) HD
+- Travelxp 4K HDR
+- Travelxp HD
+
+### Kids
+
+- Cartoon Network (India)
+- Cartoon Network HD+
+- Chithiram
+- Discovery Kids
+- Disney International HD
+- Disney Junior (India)
+- Epic Kids Digital
+- Nick Jr. (India)
+- Nickelodeon (India)
+- Sonic
+- The Jungle Book
+- ZB Cartoon
+
+### Lifestyle
+
+- Ayush TV
+- CVR Health
+- INFAST
+- Kappa TV
+
+### Movies
+
+- Alankar TV
+- All Time Movies
+- B4U Kadak
+- B4U Movies
+- Bflix Movies
+- Bhojpuri Cinema
+- Bollygold
+- Colors Bangla Cinema
+- ETV Cinema
+- Goldmines
+- Goldmines 2
+- Goldmines Action
+- Goldmines Bollywood
+- Indywood TV
+- MH One Movies
+- Maha Movie
+- Manoranjan Grand
+- Manoranjan Movies
+- Mastiii
+- Movies Now HD
+- NH BollyFlix
+- Oscar Movies Bhojpuri
+- Pitaara
+- Pocket Films
+- Public Movies
+- Raj Digital Plus
+- Roja Movies
+- Shemaroo Filmi Gaane
+- Shemaroo Josh
+- Shubh Cinema TV
+- Sony Max 2
+- South Station
+- Star Gold 2 HD
+- Star Gold HD
+- Star Maa Movies HD
+- Star Movies (India) HD
+- Studio One +
+- Thalaa TV
+- The Movie Club
+- The Movie Club +2
+- Tolly TV
+- ZB Cinema
+- Zee Action
+- Zee Cinema HD
+- Zee South Flix
+- Zee Talkies
+
+### Music
+
+- 7S Music
+- 9X Jalwa
+- 9X Jhakaas
+- 9X Tashan
+- Aaryaa TV
+- B4U Music
+- Balle Balle
+- Balle Balle HD
+- Boogle Bollywood
+- Deewana HD
+- Dhamaal
+- Dhool TV
+- Dhoom Music
+- Epic Music
+- Epic Music Digital
+- Insync
+- Isai Aruvi
+- Kalika TV
+- Mh 1 Music
+- Music India
+- NH BollyRaga
+- PTC Music
+- Peppers TV
+- Public Music
+- Qello Concerts by Stingray
+- Sana Plus
+- Songdew TV
+- Stingray Classic Rock
+- Stingray DJAZZ
+- Stingray Easy Listening
+- Stingray Naturescape
+- Stingray The Spa
+- Stingray Today's K-Pop
+- Tabbar Hits
+- Tarang Music
+- Ultimate TV
+- Vaanavil TV
+- YRF Music
+- YRF Music Nepal
+- ZB Music
+- Zing!
+- Zoom (India)
+- Zoom (India) Nepal
+
+### News
+
+- 10 TV
+- 22Scope News
+- 24 News
+- 4 SiDES TV
+- 4TV News
+- 99TV
+- ABP Asmita
+- ABP Ganga
+- ABP Majha
+- ABP News
+- AKD Calcutta News
+- ANB News
+- APN
+- Aaj Ki Khabar
+- Aaj Tak
+- Aaj Tak HD
+- Argus News
+- Asian News
+- Asianet News
+- Awaaz India TV
+- BIG TV
+- BRK News
+- Bansal News
+- Bharat Express
+- Bharat Samachar
+- Bharat Update
+- Bharat24
+- Big TV 24x7
+- CNBC Awaaz
+- CNBC Bajar
+- CNBC TV18
+- CNBC TV18 Prime HD
+- CNN News 18
+- CVR News
+- Cnews Bharat
+- DD News
+- DD News HD
+- DY 365
+- Daily Post TV
+- ETV News
+- Ekamra Bharat Odia
+- First India News
+- GS TV
+- GTC News
+- Global Punjab
+- Good News Today
+- Guarantee News
+- Gujarat First
+- HNN 24x7
+- Hamdard TV
+- Headlines Tripura
+- High News
+- Hindi Khabar
+- Hornbill TV
+- IBC 24
+- INH 24x7
+- INews
+- India Ahead
+- India Daily Live
+- India TV
+- India TV Speed News
+- India Today
+- India Voice
+- Jai Maharashtra
+- Janta TV
+- Jantantra TV
+- KBC News
+- KBP Times
+- Kadak
+- Kalinga TV
+- Kashish News
+- Khabar Fast
+- Khabrain Abhi Tak
+- Live Times
+- Living India News
+- Lokshahi News
+- M Nadu TV
+- Madhimugam TV
+- Mahaa News
+- Malai Murasu TV
+- Manorama News
+- Mantavya News
+- Mathrubhumi News
+- Mh 1 News
+- Mojo TV
+- Moon TV
+- Munsif TV
+- NDTV 24x7
+- NDTV Good Times
+- NDTV India
+- NDTV Madhya Pradesh Chhattisgarh
+- NDTV Profit
+- NDTV Rajasthan
+- NE News
+- NK TV 24x7
+- NSC9 News
+- Nation News
+- News 1 India
+- News 11
+- News 1st
+- News 24 MP & Chhattisgarh
+- News 7 Tamil
+- News Capital Gujarat
+- News Capital Market
+- News Daily 24
+- News India 24x7
+- News Leader
+- News Live
+- News Live Bangla
+- News Marathi 24x7
+- News Nation
+- News Nation 81
+- News State MP & CHG
+- News State Punjab Haryana Himachal
+- News State UP & UK
+- News Tamil 24x7
+- News18 Assam North-East
+- News18 Bangla
+- News18 Bihar Jharkhand
+- News18 Delhi NCR JK
+- News18 Gujarati
+- News18 India
+- News18 Kerala
+- News18 Madhya Pradesh/Chhattisgarh
+- News18 Marathi
+- News18 Odia
+- News18 Punjab/Haryana/Himachal
+- News18 Rajasthan
+- News18 Tamil Nadu
+- News18 Urdu
+- News18 Uttar Pradesh Uttarakhand
+- News9Live
+- NewsX World
+- PTC News
+- Polimer News
+- Prag News
+- Prameya News7
+- Pratham Khabar 24x7
+- Pratidin Time
+- Prime News
+- Prime9 News
+- Prudent Media
+- Pudhari News
+- RDX Goa
+- RT India
+- Raj News Malayalam
+- Raj News Telugu
+- Republic Bangla
+- Republic Kannada
+- Republic TV
+- Rozana Spokesman
+- Sach Bedhadak
+- Sadhna Plus News
+- Sahana News
+- Salaam TV
+- Samachar Plus 24x7
+- Sandesh News
+- Sansad TV 1 HD
+- Sansad TV 2
+- Sansad TV 2 HD
+- Sathiyam TV
+- Sudarshan News
+- Suvarna News SD
+- Swadesh News
+- Swaraj Express SMBC
+- Swatantra TV
+- T News
+- TNP News
+- TV Punjab
+- TV27 News
+- TV30 India
+- TV45
+- TV5 News
+- TV7 Bharat
+- TV9 Bangla
+- TV9 Bharatvarsh
+- TV9 Gujarati
+- TV9 Kannada
+- TV9 Marathi
+- TV9 Telugu
+- Thanthi TV
+- The Voice TV
+- Times Now
+- Times Now Navbharat
+- Times Now Navbharat HD
+- Top News Marathi
+- Twenty Four News
+- UP NOW
+- V6 News
+- VIP News
+- VR Live
+- VTV News
+- Velicham TV
+- Vistaar News
+- WION
+- Zee 24 Taas
+- Zee Bharat
+- Zee Bihar Jharkhand
+- Zee Delhi NCR Haryana
+- Zee Kannada News
+- Zee Madhya Pradesh Chhattisgarh
+- Zee News
+- Zee Punjab Haryana Himachal
+- Zee Rajasthan
+- Zee Telugu News
+- Zee Uttar Pradesh/Uttarakhand
+- ZillarBarta News
+
+### Regional - Bengali
+
+- ABP Ananda
+- Aakaash Aath
+- Akhon Kolkata
+- Ananda Barta
+- CTVN AKD Plus
+- DD Bangla
+- Enterr 10 Bangla
+- KTV Bangla
+- Khushboo Bangla
+- Kolkata TV
+- NK TV Bangla
+- Orange Bangla TV
+- Raatdin Bangla
+- Rupasi Bangla
+- Samay Kolkata
+- Sangeet Bangla
+- Star Jalsha
+- Star Jalsha HD
+- U Bangla
+- Zee Bangla
+- Zee Bangla HD
+
+### Regional - Bhojpuri
+
+- B4U Bhojpuri
+- Epic Bhojpuri
+- Epic Bhojpuri Digital
+- Sangeet Bhojpuri
+
+### Regional - Gujarati
+
+- Colors Gujarati
+- DD Girnar
+- Pradesh24 Gujarati
+- TV13 Gujarati
+- Zee 24 Kalak
+
+### Regional - Kannada
+
+- Colors Kannada HD (1080i)
+- NKR TV Kannada
+- Public TV
+- Raj Musix Kannada
+- Siri Kannada
+- Siri Kannada All Time
+- TV5 Kannada
+- Zee Kannada HD
+
+### Regional - Malayalam
+
+- Asianet HD
+- DD Malayalam
+- Harvest TV Keralam
+- Kairali Arabia
+- Kairali TV
+- Kairali We
+- Kerala Vision
+- Mazhavil Manorama
+- Mazhavil Manorama HD
+- Media One
+- Raj Musix Malayalam
+- Reporter TV
+- Safari TV
+- Sun Surya HD
+
+### Regional - Marathi
+
+- Colors Marathi HD
+- Fakt Marathi
+- Saam TV
+- Sangeet Marathi
+- Shemaroo Marathi Bana
+- Sony Marathi
+- Star Pravah HD
+- Zee Marathi HD
+
+### Regional - Punjabi
+
+- Chardikla Gurbaani TV
+- Chardikla Time TV
+- Chardikla Time TV North America
+- DD Punjabi
+- GTC Punjabi
+- Maha Punjabi
+- PTC Chakde
+- PTC Punjabi
+- PTC Punjabi Gold
+- PTC Punjabi HD
+- PTC Simran
+- Punjabi Hits
+- World Punjabi TV
+
+### Regional - Tamil
+
+- Colors Tamil HD
+- DD Tamil HD
+- Kalaignar Murasu
+- Kalaignar Seithigal
+- Kalaignar TV
+- NH Tamil Gold
+- Polimer TV
+- Puthiya Thalaimurai
+- Raj Musix Tamil
+- Raj TV
+- Sun TV HD
+- Tamil Janam
+- TamilVision-TV
+- Tamilan TV
+- WOW Kidz Tamil
+- Zee Tamil HD
+
+### Regional - Telugu
+
+- 6 TV Telugu
+- ABN Andhra Jyoti
+- ABN TV India
+- ETV Beats
+- ETV Comedy
+- ETV Josh
+- ETV Plus
+- HMTV (India)
+- NTV Telugu
+- PMC Telugu
+- Raj Musix Telugu
+- Sakshi TV
+- Star Maa HD
+- Sun Gemini
+- Telugu One
+- WOW Kidz Telugu
+
+### Religious
+
+- Aadinath TV
+- Aaseervatham TV
+- Anand TV (India)
+- Anand Wari TV
+- Angel TV
+- Arputhar Yesu TV
+- Awakening TV
+- Bhagyam TV
+- Channel WIN
+- Darshan 24
+- Dharsan TV
+- Dheeran TV
+- Fateh TV
+- GoodNews TV
+- Goodness TV
+- Gospel TV India
+- Harvest USA
+- Hebron TV
+- Hope Channel India
+- Hosanna TV
+- Hosanna TV Global
+- Jinvani Channel
+- Joy TV
+- Life TV (India)
+- MH One Shraddha
+- Madha TV
+- Mangalmay TV
+- Mercy TV (India)
+- Nambikkai TV
+- Nireekshana TV
+- Paras Gold
+- Powervision TV
+- SVBC
+- SVBC 2
+- SVBC 3
+- SVBC 4
+- Sairam TV
+- Salvation TV (India)
+- Sankara TV
+- Satsang TV
+- Satsang Web TV
+- Shalom
+- Shubhsandesh TV
+- Soham TV
+- Subhavaartha TV
+- Valam TV Dayro
+- Vedic
+- Village TV
+- Zainabia Channel
+
+### Science
+
+- InWonder
+
+### Sports
+
+- DD Sports
+- DD Sports SD
+- Eurosport
+- Sony Sports Ten 1
+- Sony Sports Ten 1 HD
+- Sony Sports Ten 2
+- Sony Sports Ten 3 Hindi
+- Sony Sports Ten 5
+- Star Sports 2
+- Star Sports 2 Telugu HD
+- Star Sports Select 1 HD
+- Star Sports Select 2 HD
+- Ten Cricket
+
+### Weather
+
+- WeatherSpy (India)
 
 ---
 
-*This playlist is for personal use only. Refresh every 24 hours.*
+*For personal use. Free streams change often - rerun the script regularly.*

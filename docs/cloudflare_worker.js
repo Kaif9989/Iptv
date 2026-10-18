@@ -1,89 +1,32 @@
-// Cloudflare Worker - IPTV Stream Proxy
-// Deploy at: https://workers.cloudflare.com/
-// For PERSONAL USE ONLY
-
-addEventListener('fetch', event => {
-  event.respondWith(handleRequest(event.request))
-})
-
-async function handleRequest(request) {
-  const url = new URL(request.url)
-  const targetUrl = url.searchParams.get('url')
-
-  if (!targetUrl) {
-    return new Response('Usage: ?url=https://stream-url.m3u8', { status: 400 })
-  }
-
-  // CORS headers for media players
-  const corsHeaders = {
-    'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods': 'GET, HEAD, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type',
-  }
-
-  if (request.method === 'OPTIONS') {
-    return new Response(null, { headers: corsHeaders })
-  }
-
-  try {
-    // Forward request with India-region headers
-    const response = await fetch(targetUrl, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-        'Referer': new URL(targetUrl).origin + '/',
-        'Origin': new URL(targetUrl).origin,
-        ...Object.fromEntries(request.headers),
-      },
-    })
-
-    // If M3U8, rewrite segment URLs to go through proxy too
-    const contentType = response.headers.get('Content-Type') || ''
-    if (contentType.includes('mpegurl') || targetUrl.endsWith('.m3u8')) {
-      let text = await response.text()
-      const baseUrl = targetUrl.substring(0, targetUrl.lastIndexOf('/') + 1)
-      
-      // Rewrite relative URLs in M3U8 to absolute, routed through proxy
-      text = text.replace(/^(?!#)([^\n]+\.ts[^\n]*)/gm, (match) => {
-        if (match.startsWith('http')) {
-          return `${url.origin}/?url=${encodeURIComponent(match)}`
-        } else {
-          return `${url.origin}/?url=${encodeURIComponent(baseUrl + match)}`
-        }
-      })
-      
-      // Also rewrite sub-playlist URLs
-      text = text.replace(/^(?!#)([^\n]+\.m3u8[^\n]*)/gm, (match) => {
-        if (match.startsWith('http')) {
-          return `${url.origin}/?url=${encodeURIComponent(match)}`
-        } else {
-          return `${url.origin}/?url=${encodeURIComponent(baseUrl + match)}`
-        }
-      })
-
-      return new Response(text, {
-        status: response.status,
-        headers: {
-          ...corsHeaders,
-          'Content-Type': 'application/vnd.apple.mpegurl',
-          'Cache-Control': 'no-cache',
-        },
-      })
+// Cloudflare Worker - HLS stream proxy (personal use). Restrict it to your own use.
+export default {
+  async fetch(request) {
+    const url = new URL(request.url);
+    const target = url.searchParams.get('url');
+    const cors = { 'Access-Control-Allow-Origin': '*' };
+    if (!target) return new Response('Usage: ?url=<encoded stream url>', { status: 400 });
+    if (request.method === 'OPTIONS') return new Response(null, { headers: cors });
+    try {
+      const origin = new URL(target).origin;
+      const upstream = await fetch(target, {
+        headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': origin + '/', 'Origin': origin },
+      });
+      const ctype = upstream.headers.get('Content-Type') || '';
+      if (ctype.includes('mpegurl') || target.split('?')[0].endsWith('.m3u8')) {
+        const base = target.substring(0, target.lastIndexOf('/') + 1);
+        const text = (await upstream.text()).split('\n').map(line => {
+          const l = line.trim();
+          if (!l || l.startsWith('#')) return line;
+          const abs = l.startsWith('http') ? l : new URL(l, base).href;
+          return `${url.origin}/?url=${encodeURIComponent(abs)}`;
+        }).join('\n');
+        return new Response(text, { status: upstream.status, headers: {
+          ...cors, 'Content-Type': 'application/vnd.apple.mpegurl', 'Cache-Control': 'no-cache' } });
+      }
+      return new Response(upstream.body, { status: upstream.status, headers: {
+        ...cors, 'Content-Type': ctype || 'video/mp2t', 'Cache-Control': 'no-cache' } });
+    } catch (e) {
+      return new Response('Error: ' + e.message, { status: 500, headers: cors });
     }
-
-    // For other content (TS segments etc), stream directly
-    return new Response(response.body, {
-      status: response.status,
-      headers: {
-        ...corsHeaders,
-        'Content-Type': contentType || 'video/mp2t',
-        'Cache-Control': 'no-cache',
-      },
-    })
-
-  } catch (err) {
-    return new Response(`Error: ${err.message}`, { 
-      status: 500, 
-      headers: corsHeaders 
-    })
-  }
-}
+  },
+};
