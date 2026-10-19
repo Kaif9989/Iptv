@@ -8,9 +8,6 @@ https://cdn.pishow.tv/ott/live/1737/master.m3u8
 #EXTINF:-1 tvg-id="KalaignarMurasu.in@SD" tvg-name="Kalaignar Murasu" tvg-logo="https://dtil.tmsimg.com/assets/s143561_ld_h15_aa.png?lock=720x540" group-title="Regional - Tamil",Kalaignar Murasu
 #EXTGRP:Regional - Tamil
 https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/murasu_nim_https/050522/murasu/playlist.m3u8
-#EXTINF:-1 tvg-id="KalaignarSeithigal.in@SD" tvg-name="Kalaignar Seithigal" tvg-logo="https://dtil.tmsimg.com/assets/s143769_ld_h15_aa.png?lock=720x540" group-title="Regional - Tamil",Kalaignar Seithigal
-#EXTGRP:Regional - Tamil
-https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/KalaignarSeithigal.m3u8
 #EXTINF:-1 tvg-id="KalaignarTV.in@SD" tvg-name="Kalaignar TV" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Kalaignar%20TV.png" group-title="Regional - Tamil",Kalaignar TV
 #EXTGRP:Regional - Tamil
 https://segment.yuppcdn.net/240122/kalaignartv/playlist.m3u8
@@ -26,9 +23,6 @@ https://mumt07.tangotv.in/zHjX9OFlPUTHIYAEXPRESS/index.m3u8
 #EXTINF:-1 tvg-id="RajMusixTamil.in@SD" tvg-name="Raj Musix Tamil" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_MUSIX_TAMIL/images/LOGO_HD/image.png" group-title="Regional - Tamil",Raj Musix Tamil
 #EXTGRP:Regional - Tamil
 https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/Raj_Musix/master_1.m3u8
-#EXTINF:-1 tvg-id="RajTV.in@SD" tvg-name="Raj TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_TV/images/LOGO_HD/image.png" group-title="Regional - Tamil",Raj TV
-#EXTGRP:Regional - Tamil
-https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RAJTV/master_1.m3u8
 #EXTINF:-1 tvg-id="TamilJanam.in@SD" tvg-name="Tamil Janam" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Janam_Tamil.png" group-title="Regional - Tamil",Tamil Janam
 #EXTGRP:Regional - Tamil
 https://mumt01.tangotv.in/O5aw8Zn3JANAMTVTAMIL/index.m3u8
