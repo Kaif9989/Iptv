@@ -17,6 +17,9 @@ https://gtc-yupp.vgcdn.net/vglive-sk-254807/index.m3u8
 #EXTINF:-1 tvg-id="MahaPunjabi.in@SD" tvg-name="Maha Punjabi" tvg-logo="https://i.imgur.com/AWUcSb8.png" group-title="Regional - Punjabi",Maha Punjabi
 #EXTGRP:Regional - Punjabi
 https://cdn.pishow.tv/ott/live/1521/master.m3u8
+#EXTINF:-1 tvg-id="PTCChakde.in@SD" tvg-name="PTC Chakde" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PTC_CHAKDE/images/LOGO_HD/image.png" group-title="Regional - Punjabi",PTC Chakde
+#EXTGRP:Regional - Punjabi
+https://cdn.pishow.tv/ott/live/449/master.m3u8
 #EXTINF:-1 tvg-id="PTCPunjabi.in@SD" tvg-name="PTC Punjabi" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PTC_PUNJABI/images/LOGO_HD/image.png" group-title="Regional - Punjabi",PTC Punjabi
 #EXTGRP:Regional - Punjabi
 https://streams.tangotv.in/PTCPUNJABI/ORIGIN/index.m3u8
@@ -32,6 +35,6 @@ https://streams.tangotv.in/PTCSIMRAN/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="PunjabiHits.in@SD" tvg-name="Punjabi Hits" tvg-logo="https://dtil.tmsimg.com/assets/s143691_ld_h15_aa.png?lock=720x540" group-title="Regional - Punjabi",Punjabi Hits
 #EXTGRP:Regional - Punjabi
 https://stream.ottlive.co.in/punjabihits/index.m3u8
-#EXTINF:-1 tvg-id="WorldPunjabiTV.in@SD" tvg-name="World Punjabi TV" tvg-logo="https://papaji.freetvindia.com/media/World_Punjabi_TV.png" group-title="Regional - Punjabi",World Punjabi TV
+#EXTINF:-1 tvg-id="PunjabiShorts.in@SD" tvg-name="Punjabi Shorts" tvg-logo="https://www.thegtcnetwork.com/punjabi-shorts.jpg" group-title="Regional - Punjabi",Punjabi Shorts
 #EXTGRP:Regional - Punjabi
-https://live1.ottlive.co.in/worldpunjabitv/worldpunjabitv/index.m3u8
+https://vglivessai.akamaized.net/ptnr-yupptv/title-Punjabi_Shorts/in/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/27c3fd7a-b01f-4b00-ac03-557ac77acd47/index.m3u8

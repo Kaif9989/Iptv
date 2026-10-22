@@ -14,9 +14,9 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 #EXTINF:-1 tvg-id="ColorsCineplex.in@SD" tvg-name="Colors Cineplex" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX/images/LOGO_HD/image.png" group-title="Entertainment",Colors Cineplex
 #EXTGRP:Entertainment
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/ColorsCineplexUK.m3u8
-#EXTINF:-1 tvg-id="ColorsInfinity.in@HD" tvg-name="Colors Infinity HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_INFINITY/images/LOGO_HD/image.png" group-title="Entertainment",Colors Infinity HD
+#EXTINF:-1 tvg-id="Colors.in@HD" tvg-name="Colors HD" tvg-logo="https://i.imgur.com/M8uCJ0D.png" group-title="Entertainment",Colors HD
 #EXTGRP:Entertainment
-http://103.151.60.162:2122/play/a02r/index.m3u8?hls
+http://103.151.60.162:2122/play/a02q/index.m3u8?hls
 #EXTINF:-1 tvg-id="ColorsRishteyAmericas.in@SD" tvg-name="Colors Rishtey Americas" tvg-logo="https://i.imgur.com/xkOunuW.png" group-title="Entertainment",Colors Rishtey Americas
 #EXTGRP:Entertainment
 https://manatv.akamaized.net/090823/smil:ristheyamerica.smil/playlist.m3u8
@@ -119,6 +119,9 @@ https://airtelapp.shemaroo.com/shemarootv/smil:shemarootvadp.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ShemarooUmang.in@SD" tvg-name="Shemaroo Umang" tvg-logo="https://dtil.tmsimg.com/assets/s143779_ld_h15_aa.png?lock=720x540" group-title="Entertainment",Shemaroo Umang
 #EXTGRP:Entertainment
 https://airtelapp.shemaroo.com/shemarooumang/smil:shemarooumangadp.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@SD" tvg-name="Sony Entertainment Television" tvg-logo="https://dtil.tmsimg.com/assets/s157589_ld_h15_aa.png?lock=720x540" group-title="Entertainment",Sony Entertainment Television
+#EXTGRP:Entertainment
+http://103.151.60.162:2122/play/a015/index.m3u8?hls
 #EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@HD" tvg-name="Sony Entertainment Television HD" tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" group-title="Entertainment",Sony Entertainment Television HD
 #EXTGRP:Entertainment
 http://38.96.178.205/SONYHD/index.m3u8
@@ -161,9 +164,9 @@ https://mumt04.tangotv.in/m18aqlK4VENDHARTV/index.m3u8
 #EXTINF:-1 tvg-id="VissaTV.in@SD" tvg-name="Vissa TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_VISSA_TV/images/LOGO_HD/image.png" group-title="Entertainment",Vissa TV
 #EXTGRP:Entertainment
 https://mumt07.tangotv.in/zHjX9OFlVISSATV/index.m3u8
+#EXTINF:-1 tvg-id="ZeeTV.in@SD" tvg-name="Zee TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" group-title="Entertainment",Zee TV
+#EXTGRP:Entertainment
+http://103.151.60.162:2122/play/a01u/index.m3u8?hls
 #EXTINF:-1 tvg-id="ZeeTV.in@HD" tvg-name="Zee TV HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" group-title="Entertainment",Zee TV HD
 #EXTGRP:Entertainment
 http://41.205.93.154/ZEE-TV/index.m3u8
-#EXTINF:-1 tvg-id="ZodiakTV.in@SD" tvg-name="Zodiak TV" tvg-logo="https://i.imgur.com/gE166hZ.jpeg" group-title="Entertainment",Zodiak TV
-#EXTGRP:Entertainment
-https://ranacable.duckdns.org/ZodiakTv/index.m3u8
