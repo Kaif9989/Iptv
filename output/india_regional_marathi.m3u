@@ -14,9 +14,6 @@ https://cdn.pishow.tv/ott/live/1229/master.m3u8
 #EXTINF:-1 tvg-id="ShemarooMarathiBana.in@SD" tvg-name="Shemaroo Marathi Bana" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHEMAROO_MARATHIBANA/images/LOGO_HD/image.png" group-title="Regional - Marathi",Shemaroo Marathi Bana
 #EXTGRP:Regional - Marathi
 https://airtelapp.shemaroo.com/marathibana/smil:marathibanaadp.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="SonyMarathi.in@SD" tvg-name="Sony Marathi" tvg-logo="https://dtil.tmsimg.com/assets/s157970_ld_h15_aa.png?lock=720x540" group-title="Regional - Marathi",Sony Marathi
-#EXTGRP:Regional - Marathi
-http://107.167.16.138/sonymarathi/index.m3u8?token=test
 #EXTINF:-1 tvg-id="StarPravah.in@HD" tvg-name="Star Pravah HD" tvg-logo="https://i.imgur.com/ZT0u7AK.png" group-title="Regional - Marathi",Star Pravah HD
 #EXTGRP:Regional - Marathi
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starpravah.smil/chunklist_b1928000.m3u8
