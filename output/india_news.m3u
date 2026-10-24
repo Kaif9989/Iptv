@@ -14,9 +14,6 @@ https://stream.ottlive.co.in/4sidestv/index.m3u8
 #EXTINF:-1 tvg-id="4TVNews.in@SD" tvg-name="4TV News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" group-title="News",4TV News
 #EXTGRP:News
 https://cdn.pishow.tv/ott/live/1007/master.m3u8
-#EXTINF:-1 tvg-id="9PlusNews.in@SD" tvg-name="9 Plus News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/9plusnews.png" group-title="News",9 Plus News
-#EXTGRP:News
-https://stream.ottlive.co.in/9plusnews/index.m3u8
 #EXTINF:-1 tvg-id="99TV.in@SD" tvg-name="99TV" tvg-logo="https://i.imgur.com/dZA4gel.png" group-title="News",99TV
 #EXTGRP:News
 https://cdn.pishow.tv/ott/live/1211/master.m3u8
@@ -50,18 +47,18 @@ https://live.legitpro.co.in/cnnnews/index.m3u8
 #EXTINF:-1 tvg-id="ANBNews.in@SD" tvg-name="ANB News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ANB_NEWS/images/LOGO_HD/image.png" group-title="News",ANB News
 #EXTGRP:News
 https://server.livelegitpro.in:9899/anbnews/anbnews/index.m3u8
+#EXTINF:-1 tvg-id="ArgusNews.in@SD" tvg-name="Argus News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARGUS/images/LOGO_HD/image.png" group-title="News",Argus News
+#EXTGRP:News
+https://mumt05.tangotv.in/87NeALx2ARGUSNEWS/index.m3u8
 #EXTINF:-1 tvg-id="AshwaveegaNews24x7.in@SD" tvg-name="Ashwaveega News 24x7" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ashwaveega_News_24x7.png" group-title="News",Ashwaveega News 24x7
 #EXTGRP:News
 https://mars.streambridge.cloud/sls/ashwaveega/playlist.m3u8
-#EXTINF:-1 tvg-id="AsianNews.in@SD" tvg-name="Asian News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Asian_News.png" group-title="News",Asian News
-#EXTGRP:News
-https://stream.ottlive.co.in/asiannews/index.m3u8
 #EXTINF:-1 tvg-id="AsianetNews.in@SD" tvg-name="Asianet News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ASIANET_NEWS/images/LOGO_HD/image.png" group-title="News",Asianet News
 #EXTGRP:News
 https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8
-#EXTINF:-1 tvg-id="AssamTalks.in@SD" tvg-name="Assam Talks" tvg-logo="https://dtil.tmsimg.com/assets/s142683_ld_h15_aa.png?lock=720x540" group-title="News",Assam Talks
+#EXTINF:-1 tvg-id="ATNSamachar.in@SD" tvg-name="ATN Samachar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ATN_Samachar.png" group-title="News",ATN Samachar
 #EXTGRP:News
-http://tvsen7.aynascope.net/AssamTalks/index.m3u8
+https://newsliveindia.com:4433/atn/index.m3u8
 #EXTINF:-1 tvg-id="AwaazIndiaTV" tvg-name="Awaaz India TV" group-title="News",Awaaz India TV
 #EXTGRP:News
 http://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8?checkedby:iptvcat.com
@@ -83,9 +80,6 @@ https://cdn.pishow.tv/ott/live/1059/master.m3u8
 #EXTINF:-1 tvg-id="BigTV24x7.in@SD" tvg-name="Big TV 24x7" tvg-logo="https://i.postimg.cc/rpHrRxR5/big_tv_malayalam.png" group-title="News",Big TV 24x7
 #EXTGRP:News
 https://stream.ottlive.co.in/bigtvmalayalam/index.m3u8
-#EXTINF:-1 tvg-id="BRKNews.in@SD" tvg-name="BRK News" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/brk-news.png" group-title="News",BRK News
-#EXTGRP:News
-https://mumbai-edge.smartplaytv.in/BRKNEWS/index.m3u8
 #EXTINF:-1 tvg-id="BSTV.in@SD" tvg-name="BSTV (India)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/BSTV.png" group-title="News",BSTV (India)
 #EXTGRP:News
 https://samitaorigin.tangotv.in/BSTV/SAMITAORIGIN/index.m3u8
@@ -113,9 +107,6 @@ https://mumbai-edge.smartplaytv.in/CVRNews/index.m3u8
 #EXTINF:-1 tvg-id="DailyPostTV.in@SD" tvg-name="Daily Post TV" tvg-logo="https://papaji.freetvindia.com/media/Daily_post.png" group-title="News",Daily Post TV
 #EXTGRP:News
 https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/103b8dd3-a888-4d1d-89a5-8a4bc25e48c1/index.m3u8
-#EXTINF:-1 tvg-id="DDNews.in@SD" tvg-name="DD News" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20News%20HD.png" group-title="News",DD News
-#EXTGRP:News
-https://mumbai-edge.smartplaytv.in/DDNews/index.m3u8
 #EXTINF:-1 tvg-id="DDNews.in@HD" tvg-name="DD News HD" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20News%20HD.png" group-title="News",DD News HD
 #EXTGRP:News
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8
@@ -128,15 +119,18 @@ https://cc-3448kp65yhc5w.akamaized.net/WWBI/Amagi/ETV_News_IN/playlist.m3u8
 #EXTINF:-1 tvg-id="FirstIndiaNews.in@SD" tvg-name="First India News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FIRST_INDIA_NEWS_RAJASTHAN/images/LOGO_HD/image.png" group-title="News",First India News
 #EXTGRP:News
 https://mumt03.tangotv.in/Dsly5z3H1STINDIANEWS/index.m3u8
-#EXTINF:-1 tvg-id="GlobalIndia.in@SD" tvg-name="Global India" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Global_India.png" group-title="News",Global India
+#EXTINF:-1 tvg-id="GlobalPunjab.in@SD" tvg-name="Global Punjab" tvg-logo="https://i.imgur.com/WDLqcWW.png" group-title="News",Global Punjab
 #EXTGRP:News
-https://server.livelegitpro.in/globalindiatv/globalindiatv/video.m3u8
+https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8
 #EXTINF:-1 tvg-id="GlobeTV.in@SD" tvg-name="Globe TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Globe_TV.png" group-title="News",Globe TV
 #EXTGRP:News
 https://mumbai-edge.smartplaytv.in/GlobeTV/index.m3u8
 #EXTINF:-1 tvg-id="GoodNewsToday.in@SD" tvg-name="Good News Today" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOOD_NEWS_TODAY/images/LOGO_HD/image.png" group-title="News",Good News Today
 #EXTGRP:News
 https://aajtaklive.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3196cced-ce29-4219-9809-f07ccdaa02b9/vglive-sk-848805/master.m3u8
+#EXTINF:-1 tvg-id="GSTV.in@SD" tvg-name="GS TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/GS_TV.png" group-title="News",GS TV
+#EXTGRP:News
+https://mumt05.tangotv.in/87NeALx2GSTV/index.m3u8
 #EXTINF:-1 tvg-id="GTCNews.in@SD" tvg-name="GTC News" tvg-logo="https://www.thegtcnetwork.com/gtc-news.png" group-title="News",GTC News
 #EXTGRP:News
 https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/921cca59-daee-4f89-8c38-7ffe8de44f4c/index.m3u8
@@ -200,6 +194,9 @@ https://mumt03.tangotv.in/Dsly5z3HJANAMTV/index.m3u8
 #EXTINF:-1 tvg-id="JantaTV.in@SD" tvg-name="Janta TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JANTA_TV/images/LOGO_HD/image.png" group-title="News",Janta TV
 #EXTGRP:News
 https://live.jswk.online/IK_RTPM/live/index.m3u8
+#EXTINF:-1 tvg-id="JantantraTV.in@SD" tvg-name="Jantantra TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Jantantra.png" group-title="News",Jantantra TV
+#EXTGRP:News
+https://mumt05.tangotv.in/87NeALx2JANTANTRA/index.m3u8
 #EXTINF:-1 tvg-id="Kadak.in@SD" tvg-name="Kadak" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Kadak.png" group-title="News",Kadak
 #EXTGRP:News
 https://n18syndication.akamaized.net/bpk-tv/Kadak_NW18_MOB/output01/master.m3u8
@@ -215,9 +212,6 @@ https://server.thelegitpro.in/kashishnews/kashishnews/index.m3u8
 #EXTINF:-1 tvg-id="KBCNews.in@SD" tvg-name="KBC News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/kbcnews.png" group-title="News",KBC News
 #EXTGRP:News
 https://stream.ottlive.co.in/kbcnews/index.m3u8
-#EXTINF:-1 tvg-id="KBPTimes.in@SD" tvg-name="KBP Times" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/KBPTimes.png" group-title="News",KBP Times
-#EXTGRP:News
-https://kbpnews.cloud/Kbptimes/Kbptimeslive/video.m3u8
 #EXTINF:-1 tvg-id="KhabarFast.in@SD" tvg-name="Khabar Fast" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Khabar_Fast.png" group-title="News",Khabar Fast
 #EXTGRP:News
 https://mumt04.tangotv.in/m18aqlK4KHABARFAST/index.m3u8
@@ -281,6 +275,9 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 #EXTINF:-1 tvg-id="NDTVMadhyaPradeshChhattisgarh.in@SD" tvg-name="NDTV Madhya Pradesh Chhattisgarh" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_MPCG/images/LOGO_HD/image.png" group-title="News",NDTV Madhya Pradesh Chhattisgarh
 #EXTGRP:News
 https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8
+#EXTINF:-1 tvg-id="NDTVProfit.in@SD" tvg-name="NDTV Profit" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_PROFIT_PRIME/images/LOGO_HD/image.png" group-title="News",NDTV Profit
+#EXTGRP:News
+https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8
 #EXTINF:-1 tvg-id="NDTVRajasthan.in@SD" tvg-name="NDTV Rajasthan" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_RAJASTHAN/images/LOGO_HD/image.png" group-title="News",NDTV Rajasthan
 #EXTGRP:News
 https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8
@@ -314,9 +311,6 @@ https://mumt01.tangotv.in/O5aw8Zn3NEWSDAILY24/index.m3u8
 #EXTINF:-1 tvg-id="NewsIndia24x7.in@SD" tvg-name="News India 24x7" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002N1TXH.png?lock=720x540" group-title="News",News India 24x7
 #EXTGRP:News
 https://cdn.pishow.tv/ott/live/273/master.m3u8
-#EXTINF:-1 tvg-id="NewsLeader.in@SD" tvg-name="News Leader" tvg-logo="https://img-cdn.publive.online/fit-in/360x280/filters:format(webp)/newsleaderlive/media/agency_attachments/2026/04/15/2026-04-15t100517555z-news-leader-640-480-1-sarvajeet-singh-chauhan-2026-04-15-15-35-17.png" group-title="News",News Leader
-#EXTGRP:News
-https://stream.ottlive.co.in/newsleader/index.m3u8
 #EXTINF:-1 tvg-id="NewsLive.in@SD" tvg-name="News Live" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS_LIVE/images/LOGO_HD/image.png" group-title="News",News Live
 #EXTGRP:News
 https://prideeast.thelegitpro.in/newslive/newslive/index.m3u8
@@ -410,12 +404,18 @@ https://streams.tangotv.in/PRAGNEWS/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="PrameyaNews7.in@SD" tvg-name="Prameya News7" tvg-logo="https://dtil.tmsimg.com/assets/s143578_ld_h15_aa.png?lock=720x540" group-title="News",Prameya News7
 #EXTGRP:News
 https://mumt03.tangotv.in/Dsly5z3HPRAMEYANEWS7/index.m3u8
+#EXTINF:-1 tvg-id="PrathamKhabar24x7.in@SD" tvg-name="Pratham Khabar 24x7" tvg-logo="https://i.imgur.com/HNsg5Px.png" group-title="News",Pratham Khabar 24x7
+#EXTGRP:News
+https://livelegitpro.in/hls2/newstime/index.m3u8
 #EXTINF:-1 tvg-id="PratidinTime.in@SD" tvg-name="Pratidin Time" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PRATIDIN_TIME/images/LOGO_HD/image.png" group-title="News",Pratidin Time
 #EXTGRP:News
 https://server.thelegitpro.in/pratidintime/pratidintime/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="Prime9News.in@SD" tvg-name="Prime9 News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Prime_9_News.png" group-title="News",Prime9 News
 #EXTGRP:News
 https://mumbai-edge.smartplaytv.in/Prime9News/index.m3u8
+#EXTINF:-1 tvg-id="PrudentMedia.in@SD" tvg-name="Prudent Media" tvg-logo="https://i.imgur.com/DG0x4UD.png" group-title="News",Prudent Media
+#EXTGRP:News
+https://prudentmcdn.rixcast.com/prudentm.m3u8
 #EXTINF:-1 tvg-id="PTCNews.in@SD" tvg-name="PTC News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PTC_NEWS/images/LOGO_HD/image.png" group-title="News",PTC News
 #EXTGRP:News
 https://streams.tangotv.in/PTCNEWS/ORIGIN/index.m3u8
@@ -431,9 +431,6 @@ https://mumt04.tangotv.in/m18aqlK4RAJNEWSTELUGU/index.m3u8
 #EXTINF:-1 tvg-id="RepublicBangla.in@SD" tvg-name="Republic Bangla" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RSYMDOT_BANGLA/images/LOGO_HD/image.png" group-title="News",Republic Bangla
 #EXTGRP:News
 https://streams.tangotv.in/RBANGLA/ORIGIN/index.m3u8
-#EXTINF:-1 tvg-id="RepublicKannada.in@SD" tvg-name="Republic Kannada" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RSYMDOTKANNADA/images/LOGO_HD/image.png" group-title="News",Republic Kannada
-#EXTGRP:News
-https://mumbai-edge.smartplaytv.in/republickannada/index.m3u8
 #EXTINF:-1 tvg-id="RepublicTV.in" tvg-name="Republic TV" group-title="News",Republic TV
 #EXTGRP:News
 https://samsung-republictv.amagi.tv/ts-ap-s1-n1/playlist/samsungin-republictv-samsungindia/playlist.m3u8?checkedby:iptvcat.com
@@ -443,9 +440,6 @@ https://live1.ottlive.co.in/spokesman/spokesman/index.m3u8
 #EXTINF:-1 tvg-id="SachBedhadak.in@SD" tvg-name="Sach Bedhadak" tvg-logo="https://dtil.tmsimg.com/assets/s158864_ld_h15_aa.png?lock=720x540" group-title="News",Sach Bedhadak
 #EXTGRP:News
 https://sbnews.nexcdn.online/sbnews/live/index.m3u8
-#EXTINF:-1 tvg-id="SadhnaNewsMadhyaPradeshChhattisgarh.in@SD" tvg-name="Sadhna News Madhya Pradesh/Chhattisgarh" tvg-logo="https://i.imgur.com/799WMit.png" group-title="News",Sadhna News Madhya Pradesh/Chhattisgarh
-#EXTGRP:News
-https://mumt04.tangotv.in/m18aqlK4SADHNEWSPMRAJ/index.m3u8
 #EXTINF:-1 tvg-id="SadhnaPlusNews.in@SD" tvg-name="Sadhna Plus News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sadhna_News_Plus.png" group-title="News",Sadhna Plus News
 #EXTGRP:News
 https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhananewstv/live.stream/playlist.m3u8
@@ -470,9 +464,6 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/e4182054dce340da9e0ff38b6b3658a4/in
 #EXTINF:-1 tvg-id="SathiyamTV.in@SD" tvg-name="Sathiyam TV" tvg-logo="https://dtil.tmsimg.com/assets/s143765_ld_h15_aa.png?lock=720x540" group-title="News",Sathiyam TV
 #EXTGRP:News
 https://mumt07.tangotv.in/zHjX9OFlSATHIYAMTV/index.m3u8
-#EXTINF:-1 tvg-id="SudarshanNews.in@SD" tvg-name="Sudarshan News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUDARSHAN_NEWS/images/LOGO_HD/image.png" group-title="News",Sudarshan News
-#EXTGRP:News
-https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="SuvarnaNews.in@SD" tvg-name="Suvarna News SD" tvg-logo="https://i.imgur.com/0H1HObK.png" group-title="News",Suvarna News SD
 #EXTGRP:News
 https://streams.tangotv.in/SUVARNANEWS/ORIGIN/index.m3u8

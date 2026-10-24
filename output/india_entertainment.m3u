@@ -59,9 +59,9 @@ https://mumt04.tangotv.in/m18aqlK4E24/index.m3u8
 #EXTINF:-1 tvg-id="EpicBharat.in@SD" tvg-name="Epic Bharat" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0032BW6T.png?lock=720x540" group-title="Entertainment",Epic Bharat
 #EXTGRP:Entertainment
 https://mumt06.tangotv.in/qYyB8fXVEPICTV/index.m3u8
-#EXTINF:-1 tvg-id="FriendsTV.in@SD" tvg-name="Friends TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Friends_TV.png" group-title="Entertainment",Friends TV
+#EXTINF:-1 tvg-id="EpicParivar.in@SD" tvg-name="Epic Parivar" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0032BVZH.png?lock=720x540" group-title="Entertainment",Epic Parivar
 #EXTGRP:Entertainment
-https://server.playontv.in/friendstv/index.m3u8
+http://103.151.60.162:2122/play/a01p/index.m3u8?hls
 #EXTINF:-1 tvg-id="GangaurTV.in@SD" tvg-name="Gangaur TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Gangaur.png" group-title="Entertainment",Gangaur TV
 #EXTGRP:Entertainment
 https://pbgangaur.wiseplayout.com/Gangaur/master.m3u8
@@ -146,12 +146,12 @@ https://drk6xq0vhn.gpcdn.net/live/sub_hd_abr/index.m3u8
 #EXTINF:-1 tvg-id="SooriyanTV.ca@SD" tvg-name="Sooriyan TV" tvg-logo="https://i.ibb.co/LSyydKj/Sooriyan-TV-Tamil.jpg" group-title="Entertainment",Sooriyan TV
 #EXTGRP:Entertainment
 https://live20.bozztv.com/giatv/giatv-Infinittyott/Infinittyott/playlist.m3u8
+#EXTINF:-1 tvg-id="Spondon.in@SD" tvg-name="Spondon" tvg-logo="https://www.spondontv.com/wp-content/uploads/2025/10/cropped-SPONDON_Blue-Violet_1-copy-300x100.png" group-title="Entertainment",Spondon
+#EXTGRP:Entertainment
+https://nktv.smartstream.video/smartstream-us/spondon/spondon/playlist.m3u8
 #EXTINF:-1 tvg-id="StudioYuva.in@SD" tvg-name="Studio Yuva" tvg-logo="https://i.imgur.com/BOhgz2T.png" group-title="Entertainment",Studio Yuva
 #EXTGRP:Entertainment
 https://mumt01.tangotv.in/O5aw8Zn3STUDIOYUVA/index.m3u8
-#EXTINF:-1 tvg-id="SubinTV.in@SD" tvg-name="Subin TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/subintvtamil.png" group-title="Entertainment",Subin TV
-#EXTGRP:Entertainment
-https://stream.galaxyott.live/live/subintv/index.m3u8
 #EXTINF:-1 tvg-id="SuriyaTV.in@SD" tvg-name="Suriya TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/suryatvtamil.png" group-title="Entertainment",Suriya TV
 #EXTGRP:Entertainment
 https://stream.ottlive.co.in/suryatvtamil/index.m3u8
@@ -176,6 +176,9 @@ https://mumt04.tangotv.in/m18aqlK4VENDHARTV/index.m3u8
 #EXTINF:-1 tvg-id="VissaTV.in@SD" tvg-name="Vissa TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_VISSA_TV/images/LOGO_HD/image.png" group-title="Entertainment",Vissa TV
 #EXTGRP:Entertainment
 https://mumt07.tangotv.in/zHjX9OFlVISSATV/index.m3u8
+#EXTINF:-1 tvg-id="ZeeTV.in@SD" tvg-name="Zee TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" group-title="Entertainment",Zee TV
+#EXTGRP:Entertainment
+http://103.151.60.162:2122/play/a01u/index.m3u8?hls
 #EXTINF:-1 tvg-id="ZeeTV.in@HD" tvg-name="Zee TV HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png" group-title="Entertainment",Zee TV HD
 #EXTGRP:Entertainment
 http://41.205.93.154/ZEE-TV/index.m3u8
